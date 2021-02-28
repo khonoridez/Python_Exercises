@@ -1,0 +1,69 @@
+practice38
+
+(1) Build the Product class with following specifications:
+
+    Attributes
+        product_name (string)
+        product_cost (float)
+        product_quantity (int)
+
+    Default constructor
+        Initializes product's name = "none", product's cost = 0.0, product's quantity = 0
+    Methods
+        get_total_product_cost() - calculates the total cost of the product (price * quantity)
+        display_product_info()
+
+        Ex. of display_product_info output:
+
+        Product 1 Info
+
+        Product Name: Bose SoundSport Free True Wireless Earbuds
+
+        Product Cost: $74.99
+
+        Product quantity on hand: 5
+
+        Total Product Cost: $374.95
+
+(2) In the main section of your code, prompt the user for two products and create two objects of the Product class.
+
+        Ex. 
+        Product 1
+        Enter the product name: Bose SoundSport Free True Wireless Earbuds
+        Enter the product cost: 74.99
+        Enter the quantity on hand: 5
+
+        Product 2
+        Enter the product name: Altec Lansing Jacket H20 4 Speaker
+        Enter the product cost: 24.99
+        Enter the quantity on hand: 8
+
+(3)  Output the Product information, add the total cost of the two products together and output the total cost.  The product cost, product total cost and total cost must be formatted with 2 digits to the right of the decimal place.
+
+        EX:
+
+        Product 1 Info 
+
+        Product Name: Bose SoundSport Free True Wireless Earbuds
+
+        Product Cost: $74.99
+
+        Product quantity on hand: 5
+
+        Total Product Cost: $374.95
+
+
+        Product 2 Info 
+
+        Product Name: Altec Lansing Jacket H20 4 Speaker
+
+        Product Cost: $24.99
+
+        Product quantity on hand: 8
+
+        Total Product Cost: $199.92
+
+
+        Total Cost: 
+
+        $574.87
