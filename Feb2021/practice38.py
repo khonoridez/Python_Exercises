@@ -1,5 +1,4 @@
 class Product:
-    total_cost = 0
     def __init__(self, product_name, product_cost, product_quantity, product_count):
         self.product_name  = product_name
         self.product_cost = float(product_cost)
